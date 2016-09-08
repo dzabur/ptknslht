@@ -35,7 +35,7 @@ public class AnimEntity extends Entity {
     public void render(SpriteBatch batch) {
         //stateTime += Gdx.graphics.getDeltaTime();           // #15
         TextureRegion currentFrame = anim.getKeyFrame(stateTime, true);
-       // batch.end();
+       //  batch.end();
        // batch.setBlendFunction(GL20.GL_BLEND_SRC_ALPHA, GL20.GL_ONE_MINUS_DST_COLOR);
 
       //  batch.begin();
